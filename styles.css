@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink; /* Feel free to customize */
+    font-family: 'Times New Roman', serif; /* Or any preferred font */
+  }
+  
+  #letter {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white; /* Or any light pastel color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .sentence {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
